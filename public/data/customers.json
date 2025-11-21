@@ -360,5 +360,23 @@
             },
             "latitude": -22.919369, 
             "longitude": -43.181836
+      },
+      {
+            "id": 23,
+            "firstName": "Katniss",
+            "lastName": "Everdeen",
+            "gender": "female",
+            "address": "12 Victor's Village",
+            "city": "District 12",
+            "state": {
+                "abbreviation": "CO",
+                "name": "Colorado"
+            },
+            "orders": [
+                {"productName": "Bow and Arrows", "itemCost": 299.99},
+                {"productName": "Mockingjay Pin", "itemCost": 49.99}
+            ],
+            "latitude": 39.113014,
+            "longitude": -105.358887
       }
 ]
