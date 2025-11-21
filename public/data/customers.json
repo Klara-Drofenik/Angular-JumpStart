@@ -15,7 +15,8 @@
                 {"productName": "Shoes", "itemCost": 199.99}
             ],
             "latitude": 33.299,
-            "longitude": -111.963
+            "longitude": -111.963,
+            "funFact": "Once played basketball with Michael Jordan"
       },
       {
             "id": 2,
@@ -52,7 +53,8 @@
                 {"productName": "Kangaroo Saddle", "itemCost": 179.99}
             ],
             "latitude": 47.596,
-            "longitude": -122.331
+            "longitude": -122.331,
+            "funFact": "Can speak three languages fluently"
       },
       {
             "id": 4,

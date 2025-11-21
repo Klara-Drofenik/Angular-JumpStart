@@ -15,6 +15,11 @@
           <div class="customer-location">
             {{ customer.city }}, {{ customer.state.name }}
           </div>
+          @if (customer.funFact) {
+            <div class="customer-funfact">
+              <strong>Fun Fact:</strong> {{ customer.funFact }}
+            </div>
+          }
         </div>
       </div>
     </div>

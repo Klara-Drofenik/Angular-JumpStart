@@ -45,6 +45,11 @@
         </select>
       </div>
       
+      <div class="form-group">
+        <label>Fun Fact (Optional)</label>
+        <textarea title="fun fact" class="form-control" name="funFact" [(ngModel)]="customer.funFact" rows="3" placeholder="Share something interesting about this customer..."></textarea>
+      </div>
+      
       @if (customer.id && deleteMessageEnabled) {
           <div class="alert alert-warning">
             Delete Customer?
