@@ -13,6 +13,7 @@ export interface ICustomer {
     orderTotal?: number;
     latitude?: number;
     longitude?: number;
+    funFact?: string;
 }
 
 export interface IMapDataPoint {
